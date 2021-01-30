@@ -1,0 +1,121 @@
+@font-face{
+  font-family: SpaceMono;
+  src: url('fonts/SpaceMono/SpaceMono-Bold.ttf');
+}
+
+@font-face{
+  font-family: Inconsolata;
+  src: url('fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face{
+  font-family: Montserrat;
+  src: url('fonts/Montserrat/Montserrat-Light.ttf');
+}
+
+* {
+  font-family: SpaceMono;
+  font-size: 14px;
+}
+
+header, p {
+  font-family: Inconsolata;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  color: 333333, 100%;
+
+  margin-left: 2%;
+}
+
+section img {
+  margin-top: 136px;
+  max-width: 74%;
+  height: auto;
+  margin-left: 13%;
+}
+
+section h1 {
+  font-size: 126px;
+  font-weight: 700;
+  line-height: 189px;
+  margin-left: 5%;
+  letter-spacing: -0.035em;
+
+  color: #333333;
+}
+
+section p {
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 75px;
+  letter-spacing: -0.035em;
+  color: rgba(97, 99, 99, 1);
+  margin-left: 5%;
+}
+
+section button {
+  font-size: 33px;
+  margin-left: 5%;
+  margin-top: 99px;
+  padding: 43px;
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+footer p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin: 185px 0px 150px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-container{
+    display: contents;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /* For desktop: */
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  section img {
+    margin-top: 136px;
+    max-width: 101%;
+    height: auto;
+    margin-left: 1%;
+  }
+
+  section h1 {
+    font-family: Inconsolata;
+    font-size: 81px;
+    font-weight: bold;
+    line-height: 114px;
+
+  }
+
+  section p {
+    font-family: Inconsolata;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: -0.08em;
+    color: 333333, 100%;
+    
+    margin-left: 5%;
+  }
+
+  section button {
+    font-size: 21px;
+    margin-left: 5%;
+    margin-top: 99px;
+    padding: 43px;
+    color: #FFFFFF;
+    background-color: #333333;
+  }
+}
